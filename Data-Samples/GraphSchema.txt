@@ -1,0 +1,19 @@
+Node properties:
+Invoice {name: STRING}
+Client {name: STRING}
+Seller {name: STRING}
+TotalAmount {name: INTEGER}
+ProductDescription {name: STRING}
+Quantity {name: STRING}
+UnitPrice {name: STRING}
+Total {name: STRING}
+Relationship properties:
+
+The relationships:
+(:Invoice)-[:HAS_CLIENT]->(:Client)
+(:Invoice)-[:HAS_SELLER]->(:Seller)
+(:Invoice)-[:HAS_TOTAL_AMOUNT]->(:TotalAmount)
+(:Invoice)-[:HAS_PRODUCT]->(:ProductDescription)
+(:ProductDescription)-[:HAS_QUANTITY]->(:Quantity)
+(:ProductDescription)-[:HAS_UNIT_PRICE]->(:UnitPrice)
+(:ProductDescription)-[:HAS_TOTAL]->(:Total)
