@@ -1,4 +1,4 @@
-🧾 Knowledge Graph for Invoices - QA
+🧾 Knowledge LLM for Invoices - QA
 ----------------------------------
 This project focuses on building a Question Answering system using Knowledge Graphs for invoice data. It combines structured schema design, language model fine-tuning, and Cypher query generation to enable natural language interaction with invoice documents.
 💡 Key Components
